@@ -253,6 +253,7 @@ tq_get_base <- function(x, get, ...) {
     ret <- switch(get,
                   stockprice       = tq_get_util_1(x, get, ...),
                   stockpricesjapan = tq_get_util_1(x, get, ...),
+                  stockpricesrussia = tq_get_util_1(x, get, ...),
                   dividend         = tq_get_util_1(x, get, ...),
                   split            = tq_get_util_1(x, get, ...),
                   financial        = tq_get_util_1(x, get, ...),
