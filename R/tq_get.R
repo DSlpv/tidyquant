@@ -276,7 +276,7 @@ tq_get_base <- function(x, get, ...) {
 tq_get_options <- function() {
     c("stock.prices",
       "stock.prices.japan",
-      "stock.prices.russian",
+      "stock.prices.russia",
       "financials",
       "key.stats",
       "key.ratios",
