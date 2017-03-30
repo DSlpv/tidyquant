@@ -25,6 +25,9 @@ stock prices for a stock symbol from
 \item \code{"stock.prices.japan"}: Get the open, high, low, close, volume and adjusted
 stock prices for a stock symbol from
 \href{http://finance.yahoo.co.jp/}{Yahoo Finance Japan}. Wrapper for \code{quantmod::getSymbols.yahooj()}.
+\item \code{"stock.prices.russia"}: Get the open, high, low, close and volume
+stock prices for a stock symbol from
+\href{http://finance.yahoo.com/}{Yahoo Finance}. Wrapper for \code{rusquant::getSymbols.Finam()}.
 \item \code{"financials"}: Get the income, balance sheet, and cash flow
 financial statements for a stock symbol from
 \href{https://www.google.com/finance}{Google Finance}. Wrapper for \code{quantmod::getFinancials()}.
