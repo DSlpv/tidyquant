@@ -329,7 +329,7 @@ tq_get_util_1 <-
                                                 list_names = c("open", "high", "low", "close", "volume", "adjusted"),
                                                 source     = "yahooj"),
                    stockpricesrussia     = list(chr_get    = "stock.prices", 
-                                                fun        = rusquant::getSymbols,
+                                                fun        = rusquant::getSymbols.Finam,
                                                 chr_fun    = "rusquant::getSymbols.Finam",
                                                 list_names = c("open", "high", "low", "close", "volume"),
                                                 source     = "Finam"),
