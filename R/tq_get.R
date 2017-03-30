@@ -867,7 +867,7 @@ validate_compound_gets <- function(get) {
 
     # Only allowed to use first six options for compound gets because these use traditional stock symbols
     # Update for "stock.prices.japan". Now subset is c(1, 3:7)
-    compound_get_options <- tq_get_options()[c(1, 3:7)] %>%
+    compound_get_options <- tq_get_options()[c(1, 3:8)] %>%
         stringr::str_replace_all("[[:punct:]]", "") %>%
         stringr::str_replace_all("s$", "")
 
